@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 my">
+       <div class="logo">
+      
+       </div>
+    </div>
+    <div class="col-md-6 your">
+      <div clss="slo">
+       <h1 class="slogan">LET'S<br>CONNECT</h1>
+       <p class="agenda">WITH BEAUTIFUL WORLD</p>
+       </div>
+        <div class="get">
+          <form method="post" style="margin-top:-300px; margin-left:80px;">
+            <h3 style="font-family:Arial, Helvetica, sans-serif; color:rgb(237, 232, 229);font-weight:600">Enter the Chatroom</h3>
+             <div>
+              <label class="pick" style="font-size:medium; font-weight:700;color:rgb(200, 255, 0)"> Name: </label>
+              <input type="text" placeholder="Pick a name" name="name" class="pick" value="{{name}}"/>
+
+             </div>
+             <div class="join">
+                 <input type="text" placeholder="Room Code" name="code" class="pick" value="{{code}}" style="margin-top:20px;">
+                 <br>
+                 <button type="submit" name="join" class="btn btn2 ">Join a Room </button>
+             </div>
+             <button tyoe="submit" class=" btn btn5"name="create"> Create a Room</button>
+             {% if error %}
+             <ul>
+              <li style="color:red">{{error}}</li>
+             </ul>
+             {% endif %}
+            </form>
+        </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

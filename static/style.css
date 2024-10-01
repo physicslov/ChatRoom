@@ -1,0 +1,149 @@
+body{
+  background-image: linear-gradient( to bottom,#F32D92,#53ABFF);
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  }
+  .container{
+    height:600px;
+    border:none;
+  }
+  .my{
+    background-color: white;
+    background-image: linear-gradient( to bottom,#F32D92,#53ABFF);
+  }
+  .your{
+    border-radius: 20px;
+    background-image: url('people.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .col-md-6{
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    background-image: url('Screenshot__66_-removebg-preview.png');
+    height: 400px;
+    width:600px;
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-bottom: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .slogan{
+    margin-top: -280px;
+    margin-right: -500px;
+    color:white;
+  }
+  .get{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:150px;
+    width:400px;
+  }
+  .btn{
+    background-color:#F42D92;
+    width:280px;
+    border-radius:40px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -400px;
+    margin-right: -100px;
+  }
+  .btn2{
+    margin-top: 20px;
+    background-color:rgb(15, 139, 234);
+    border:none;
+  }
+  .btn5{
+    margin-top: 20px;
+    background-color:green;
+    border:none;
+  }
+  .agenda{
+    color:grey;
+  }
+  .pick{
+    margin-left: -10px;
+    width:300px;
+    border:none;
+    border-radius: 4px;
+   
+  }
+  input{
+    background-color: black;
+    color:white;
+  }
+
+  .message-box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:10px;
+    background-image: linear-gradient(to bottom right,black,rgb(228, 39, 216));
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    align-items: stretch;
+  }
+  .messages{
+    overflow-y: scroll;
+    flex:1;
+    width:100%;
+  }
+  .inputs{
+    padding:10px;
+    display:flex;
+  }
+  .mains{
+    background-color: rgb(241, 228, 228);
+    color:black;
+  }
+  h2{
+    text-align: center;
+  }
+  #message{
+    flex:1;
+  }
+
+  .text{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right: 10px;
+  }
+  .muted{
+    font-size: 5px;
+    color: white;
+  }
+  .messag{
+    background-color: rgb(234, 28, 152);
+    color:white;
+    height:40px;
+    border:none;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  strong{
+    color:white;
+   
+
+  }
